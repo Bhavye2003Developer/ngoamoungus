@@ -1,0 +1,201 @@
+.brandimg{
+    width: 120px;
+}
+body {
+    font-family: 'Rubik', space, 'cormorant', 'work sans';
+    text-align: center;
+}
+
+li{
+    font-size: 1.2rem;
+}
+
+.container-fluid {
+    padding: 4% 2%;
+}
+
+#title {
+    
+    text-align: left;
+}
+
+.navbar {
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+    padding: 0 2%;
+}
+
+.navig{
+    padding: 0;
+    background-color: white;
+}
+
+.nav-item{
+    padding: 0 20px;
+}
+
+.head{
+    padding: 10% 3% ;
+    background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+.headimg{
+    width: 100%;
+    border-radius: 50%;
+}
+
+h1{
+    font-size: 4.5rem;
+}
+
+
+.typewriter h1 {
+    overflow: hidden; 
+    border-right: .15em solid orange;
+    white-space: nowrap;
+    margin: 0 auto; 
+    letter-spacing: .15em; 
+    animation: 
+      typing 3.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+  }
+
+  
+
+  .btn {
+    background: #6d6dad;
+    background-image: -webkit-linear-gradient(top, #6d6dad, #2980b9);
+    background-image: -moz-linear-gradient(top, #6d6dad, #2980b9);
+    background-image: -ms-linear-gradient(top, #6d6dad, #2980b9);
+    background-image: -o-linear-gradient(top, #6d6dad, #2980b9);
+    background-image: linear-gradient(to bottom, #6d6dad, #2980b9);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffff;
+    font-size: 29px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #1f2f94;
+    background-image: -webkit-linear-gradient(top, #1f2f94, #3498db);
+    background-image: -moz-linear-gradient(top, #1f2f94, #3498db);
+    background-image: -ms-linear-gradient(top, #1f2f94, #3498db);
+    background-image: -o-linear-gradient(top, #1f2f94, #3498db);
+    background-image: linear-gradient(to bottom, #1f2f94, #3498db);
+    text-decoration: none;
+  }
+  
+  /* features */
+
+#features{
+    padding: 3%;
+}
+
+.color-green{
+    font-size: 2rem;
+}
+/* events */
+
+.eventsbtn {
+    background: #6d6dad;
+    background-image: -webkit-linear-gradient(top, #6d6dad, #2980b9);
+    background-image: -moz-linear-gradient(top, #6d6dad, #2980b9);
+    background-image: -ms-linear-gradient(top, #6d6dad, #2980b9);
+    background-image: -o-linear-gradient(top, #6d6dad, #2980b9);
+    background-image: linear-gradient(to bottom, #6d6dad, #2980b9);
+    font-family: Arial;
+    color: #ffff;
+    font-size: 16px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .eventsbtn:hover {
+    background: #1f2f94;
+    background-image: -webkit-linear-gradient(top, #1f2f94, #3498db);
+    background-image: -moz-linear-gradient(top, #1f2f94, #3498db);
+    background-image: -ms-linear-gradient(top, #1f2f94, #3498db);
+    background-image: -o-linear-gradient(top, #1f2f94, #3498db);
+    background-image: linear-gradient(to bottom, #1f2f94, #3498db);
+    text-decoration: none;
+  }
+
+.event{
+    background: rgb(238,174,202);
+    background: linear-gradient(90deg, rgba(148,187,233,1) 100%, rgba(238,174,202,1) 0%);
+    margin: 0;;
+}
+
+.card{
+    padding: 60px;
+    border-radius: 30%;
+}
+
+.card:hover{
+    transform: scale(1.15);
+    box-shadow: 0 0 10px rgba(0, 0 , 0, 0.5);
+    z-index: 8;
+}
+
+
+/* testimonials */
+#testimonials {
+    padding: 2% 12% 3%;
+    background-color: plum;
+    color: white;
+}
+
+.testim-h2 {
+    padding: 2% 0 6%;
+}
+
+.testim-img {
+    width: 10%;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    padding: 2%;
+}
+
+/* press  */
+#press {
+    
+    padding: 3%;
+}
+
+.press-logo {
+    width: 22%;
+    margin: 10px 20px 10px;
+}
+
+/* footer */
+
+footer{
+    padding: 0;
+    margin: 0;
+}
+
+.footer{
+    margin: 0;
+    padding: 0;
+}
+
+.text-white{
+    padding: 20px;
+}
