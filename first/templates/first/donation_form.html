@@ -13,7 +13,7 @@
 <body>
     <div class="title">
         <h1 class="">Donation Form</h1>
-
+        <hr>
     </div>
     <form method="post" action=""> {% csrf_token %}
         <div class="container">
@@ -45,12 +45,23 @@
                     <label for="Cityinput" class="form-label">City</label>
                     <input type="text" class="form-control" id="Cityinput" name="Cityinput">
                 </div><br>
+                <p>Select an NGO</p>
+                <select name="type_donate" id="cars">
+                    <option value="a">Saksham</option>
+                    <option value="b">Bharat Vikas Mission</option>
+                    <option value="c">Prayas</option>
+                    <option value="d">Radiant helping Hands</option>
+                    <option value="d">Swagath</option>
+                    <option value="d">Speak for change</option>
+                </select>
+                <br>
+                <br>
                 <p>Donation type</p>
                 <select name="type_donate" id="cars">
-                    <option value="a">Blanket</option>
-                    <option value="b">Grains</option>
-                    <option value="c">Fruits</option>
-                    <option value="d">Oil</option>
+                    <option value="a">Blankets</option>
+                    <option value="b">Packets of Grains</option>
+                    <option value="c">Fruits Basket</option>
+                    <option value="d">Books for Children</option>
                 </select>
                 <br>
                 <br>
